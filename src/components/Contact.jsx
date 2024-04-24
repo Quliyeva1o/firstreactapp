@@ -7,7 +7,7 @@ const Contact = () => {
     <>
     {
       productsArr.map((product)=>
-      <li>{product.name}</li>)
+      <li key={product.id}>{product.name} and {product.price}</li>)
 
     }
     </>
